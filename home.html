@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Betty's Foods & Beverages</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="icon" type="image/x-icon" href="/Images/android-chrome-512x512.png">
+</head>
+<body>
+
+<!-- Header/Navbar -->
+<header>
+    <a href="home" class="logo"><h5 style="font-size: 25px; color: black;">Betty's Foods & Beverages</h5></a>
+    <ul class="navmenu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#shop">Products</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+    </ul>
+    <div class="nav-icon">
+        <a href="#"><i class="bx bx-search"></i></a>
+        <a href="#" id="cartBtn"><i class="bx bx-cart"></i></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="main-home" id="home">
+    <div class="main-text">
+        <h1>New Yoghurt <br> Flavours</h1>
+        <p>Don't miss out on our new sumptuous yoghurt flavours!</p>
+        <a href="#shop" class="main-btn">Shop Now <i class='bx bx-right-arrow-alt'></i></a>
+    </div>
+    <div class="down-arrow">
+        <a href="#shop" class="down"><i class='bx bx-down-arrow-alt'></i></a>
+    </div>
+</section>
+
+<!-- Products Section -->
+<section class="trending-product" id="shop">
+    <div class="center-text">
+        <h2>Our Trending <span>Products</span></h2>
+    </div>
+    <div class="products">
+
+        <!-- Product 1 -->
+        <div class="row">
+            <img src="Images/chocolate and banana smoothie.jpg" alt="">
+            <div class="product-text"><h5>Sale</h5></div>
+            <div class="heart-icon"><i class='bx bx-heart'></i></div>
+            <div class="rating">
+                <i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i>
+                <i class='bx bx-star'></i><i class='bx bxs-star-half'></i>
+            </div>
+            <div class="price">
+                <h4>Chocolate and Banana Smoothie</h4>
+                <p class="strike">₦ 1,500.00</p>
+                <p>₦ 1,000.00</p>
+            </div>
+            <button class="add-to-cart-btn" data-title="Chocolate and Banana Smoothie" data-price="₦1000" data-image="Images/product.jpg" id="addBtn">
+                Add to Cart
+            </button>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="row">
+            <img src="Images/banana smoothie.webp" alt="">
+            <div class="heart-icon"><i class='bx bx-heart'></i></div>
+            <div class="rating">
+                <i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i>
+                <i class='bx bx-star'></i><i class='bx bxs-star-half'></i>
+            </div>
+            <div class="price">
+                <h4>Banana Smoothie</h4>
+                <p>₦ 1,000.00</p>
+            </div>
+            <button class="add-to-cart-btn" data-title="Product Title" data-price="₦1000" data-image="Images/product.jpg" id="addBtn">
+                Add to Cart
+            </button>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="row">
+            <img src="Images/apple juice.jpeg" alt="">
+            <div class="heart-icon"><i class='bx bx-heart'></i></div>
+            <div class="rating">
+                <i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i>
+                <i class='bx bx-star'></i><i class='bx bxs-star-half'></i>
+            </div>
+            <div class="price">
+                <h4>Apple Juice</h4>
+                <p>₦ 800.00</p>
+            </div>
+            <button class="add-to-cart-btn" data-title="Product Title" data-price="₦1000" data-image="Images/product.jpg" id="addBtn">
+                Add to Cart
+            </button>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="row">
+            <img src="Images/greek yoghurt 2.jpg" alt="">
+            <div class="product-text"><h5>Sale</h5></div>
+            <div class="heart-icon"><i class='bx bx-heart'></i></div>
+            <div class="rating">
+                <i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i>
+                <i class='bx bx-star'></i><i class='bx bxs-star-half'></i>
+            </div>
+            <div class="price">
+                <h4>Greek Yoghurt</h4>
+                <p class="strike">₦ 3,500.00</p>
+                <p>₦ 3,000.00</p>
+            </div>
+            <button class="add-to-cart-btn" data-title="Product Title" data-price="₦1000" data-image="Images/product.jpg" id="addBtn">
+                Add to Cart
+            </button>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="row">
+            <img src="Images/cakey strawberry cobbler dessert.jpg" alt="">
+            <div class="product-text"><h5>Sale</h5></div>
+            <div class="heart-icon"><i class='bx bx-heart'></i></div>
+            <div class="rating">
+                <i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i>
+                <i class='bx bx-star'></i><i class='bx bxs-star-half'></i>
+            </div>
+            <div class="price">
+                <h4>Cakey Strawberry Cobbler</h4>
+                <p class="strike">₦ 2,500.00</p>
+                <p>₦ 2,000.00</p>
+            </div>
+            <button class="add-to-cart-btn" data-title="Product Title" data-price="₦1000" data-image="Images/product.jpg" id="addBtn">
+                Add to Cart
+            </button>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="row">
+            <img src="Images/chocolate milkshake.jpeg" alt="">
+            <div class="product-text"><h5>Sale</h5></div>
+            <div class="heart-icon"><i class='bx bx-heart'></i></div>
+            <div class="rating">
+                <i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i>
+                <i class='bx bx-star'></i><i class='bx bxs-star-half'></i>
+            </div>
+            <div class="price">
+                <h4>Chocolate Milkshake</h4>
+                <p class="strike">₦ 1,500.00</p>
+                <p>₦ 1,000.00</p>
+            </div>
+            <button class="add-to-cart-btn" data-title="Product Title" data-price="₦1000" data-image="Images/product.jpg" id="addBtn">
+                Add to Cart
+            </button>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="row">
+            <img src="Images/atlantic beach pie dessert.jpg" alt="">
+            <div class="heart-icon"><i class='bx bx-heart'></i></div>
+            <div class="rating">
+                <i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i>
+                <i class='bx bx-star'></i><i class='bx bxs-star-half'></i>
+            </div>
+            <div class="price">
+                <h4>Atlantic Beach Pie</h4>
+                <p>₦ 2,000.00</p>
+            </div>
+            <button class="add-to-cart-btn" data-title="Product Title" data-price="₦1000" data-image="Images/product.jpg" id="addBtn">
+                Add to Cart
+            </button>
+        </div>
+
+        <!-- Product 8 -->
+        <div class="row">
+            <img src="Images/cream cheese pound cake dessert.jpg" alt="">
+            <div class="heart-icon"><i class='bx bx-heart'></i></div>
+            <div class="rating">
+                <i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i>
+                <i class='bx bx-star'></i><i class='bx bxs-star-half'></i>
+            </div>
+            <div class="price">
+                <h4>Cream Cheese Pound Cake</h4>
+                <p>₦ 1,500.00</p>
+            </div>
+            <button class="add-to-cart-btn" data-title="Product Title" data-price="₦1000" data-image="Images/product.jpg" id="addBtn">
+                Add to Cart
+            </button>
+        </div>
+
+        <!-- Product 9 -->
+        <div class="row">
+            <img src="Images/small chops tray.jpg" alt="" style="height: 315px;">
+            <div class="product-text"><h5>Sale</h5></div>
+            <div class="heart-icon"><i class='bx bx-heart'></i></div>
+            <div class="rating">
+                <i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i>
+                <i class='bx bx-star'></i><i class='bx bxs-star-half'></i>
+            </div>
+            <div class="price">
+                <h4>Small Chops Tray</h4>
+                <p class="strike">₦ 4,500.00</p>
+                <p>₦ 4,000.00</p>
+            </div>
+            <button class="add-to-cart-btn" data-title="Product Title" data-price="₦1000" data-image="Images/product.jpg" id="addBtn">
+                Add to Cart
+            </button>
+        </div>
+
+        <!-- Product 10 -->
+        <div class="row">
+            <img src="Images/fanta bottle.jpg" alt="">
+            <div class="heart-icon"><i class='bx bx-heart'></i></div>
+            <div class="rating">
+                <i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i>
+                <i class='bx bx-star'></i><i class='bx bxs-star-half'></i>
+            </div>
+            <div class="price">
+                <h4>Fanta Bottle</h4>
+                <p>₦ 500.00</p>
+            </div>
+            <button class="add-to-cart-btn" data-title="Product Title" data-price="₦1000" data-image="Images/product.jpg" id="addBtn">
+                Add to Cart
+            </button>
+        </div>
+
+        <!-- Product 11 -->
+        <div class="row">
+            <img src="Images/mango smoothie.jpg" alt="">
+            <div class="heart-icon"><i class='bx bx-heart'></i></div>
+            <div class="rating">
+                <i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i>
+                <i class='bx bx-star'></i><i class='bx bxs-star-half'></i>
+            </div>
+            <div class="price">
+                <h4>Mango Smoothie</h4>
+                <p>₦ 1,000.00</p>
+            </div>
+            <button class="add-to-cart-btn" data-title="Product Title" data-price="₦1000" data-image="Images/product.jpg" id="addBtn">
+                Add to Cart
+            </button>
+        </div>
+
+        <!-- Product 12 -->
+        <div class="row">
+            <img src="Images/mixed berry smoothie.jpg" alt="">
+            <div class="heart-icon"><i class='bx bx-heart'></i></div>
+            <div class="rating">
+                <i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i>
+                <i class='bx bx-star'></i><i class='bx bxs-star-half'></i>
+            </div>
+            <div class="price">
+                <h4>Mixed Berry Smoothie</h4>
+                <p>₦ 1,500.00</p>
+            </div>
+            <button class="add-to-cart-btn" data-title="Product Title" data-price="₦1000" data-image="Images/product.jpg" id="addBtn">
+                Add to Cart
+            </button>
+        </div>
+
+        <!-- Product 13 -->
+        <div class="row">
+            <img src="Images/tropical smoothie.jpg" alt="">
+            <div class="heart-icon"><i class='bx bx-heart'></i></div>
+            <div class="rating">
+                <i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i>
+                <i class='bx bx-star'></i><i class='bx bxs-star-half'></i>
+            </div>
+            <div class="price">
+                <h4>Tropical Smoothie</h4>
+                <p>₦ 1,500.00</p>
+            </div>
+            <button class="add-to-cart-btn" data-title="Product Title" data-price="₦1000" data-image="Images/product.jpg" id="addBtn">
+                Add to Cart
+            </button>
+        </div>
+
+        <!-- Product 14 -->
+        <div class="row">
+            <img src="Images/hot brown party roll appetizer.jpg" alt="">
+            <div class="product-text"><h5>Sale</h5></div>
+            <div class="heart-icon"><i class='bx bx-heart'></i></div>
+            <div class="rating">
+                <i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i>
+                <i class='bx bx-star'></i><i class='bx bxs-star-half'></i>
+            </div>
+            <div class="price">
+                <h4>Hot Brown Party Roll</h4>
+                <p class="strike">₦ 2,500.00</p>
+                <p>₦ 2,000.00</p>
+            </div>
+            <button class="add-to-cart-btn" data-title="Product Title" data-price="₦1000" data-image="Images/product.jpg" id="addBtn">
+                Add to Cart
+            </button>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Client Reviews -->
+<section class="client-reviews" id="reviews">
+    <div class="reviews">
+        <h3>Client Reviews</h3>
+        <img src="Images/male potrait.jpeg" alt="">
+        <p>I highly recommend Betty's Foods & Beverages because their products are rich and healthy!</p>
+        <h2>Nate Jones</h2>
+        <p>CEO of Trep Foods</p>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact">
+    <div class="contact-info">
+        <a href="home" class="logo"><h5 style="font-size: 20px; color: black;">Betty's Foods & Beverages</h5></a>
+        <div class="first-info">
+            <p>Gwarinpa, <br> Abuja, <br> Nigeria.</p>
+            <div class="num">
+                <p><a href="">+234 8012 345 678</a></p>
+                <p><a href="" style="text-transform: lowercase;">bettysfoods@gmail.com</a></p>
+            </div>
+            <div class="social-icon">
+                <a href=""><i class='bx bxl-facebook'></i></a>
+                <a href=""><i class='bx bxl-instagram'></i></a>
+                <a href=""><i class='bx bxl-twitter'></i></a>
+                <a href=""><i class='bx bxl-youtube'></i></a>
+            </div>
+        </div>
+        <div class="second-info">
+            <h4>Support</h4>
+            <p><a href="">Contact Us</a></p>
+            <p><a href="">Returns</a></p>
+            <p><a href="">Privacy Policy</a></p>
+        </div>
+        <div class="third-info">
+            <h4>Company</h4>
+            <p><a href="">About</a></p>
+            <p><a href="">Blog</a></p>
+            <p><a href="">Affiliate</a></p>
+            <p><a href="">Login</a></p>
+        </div>
+        <div class="fourth-info">
+            <h4>Subscribe</h4>
+            <p>Receive updates and discounts sent straight to your inbox daily!</p>
+        </div>
+    </div>
+        <div style="text-align: center;">© 2024 Beaj Steve | All Rights Reserved</div>
+</section>
+
+<!-- Scroll to Top -->
+<button onclick="topFunction()" id="myBtn" title="Go to top">🡅</button>
+
+<!-- Product Modal -->
+<div id="productModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; justify-content:center; align-items:center; background: rgba(0,0,0,0.8); z-index:10000;">
+    <div style="background:white; padding:20px; border-radius:10px; max-width:500px; width:90%; position:relative;">
+        <span class="close-modal" style="position:absolute; top:10px; right:15px; font-size:25px; cursor:pointer;">&times;</span>
+        <img id="modalImage" src="" style="width:90%; border-radius:10px; margin-bottom:10px;">
+        <h3 id="modalTitle"></h3>
+        <p id="modalPrice" style="font-weight:bold;"></p>
+        <button id="modalAddToCart" style="padding:10px 20px; background:green; color:white; border:none; border-radius:5px; cursor:pointer;">Add to Cart</button>
+    </div>
+</div>
+
+
+
+<!-- Cart Modal -->
+<div id="cartModal" class="cart-modal">
+  <div class="cart-content">
+    <span class="close-cart">&times;</span>
+    <h3>Your Cart</h3>
+    <div id="cartItems"></div>
+    <p id="cartTotal">Total: ₦0</p>
+    <button id="checkoutBtn">Checkout</button>
+  </div>
+</div>
+
+
+<script src="home.js"></script>
+</body>
+</html>
